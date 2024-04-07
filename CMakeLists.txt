@@ -18,6 +18,7 @@ target_include_directories(${PROJECT_NAME}
         ${PROJECT_SOURCE_DIR}/include
     PRIVATE
         ${PROJECT_SOURCE_DIR}/lib/include
+        ${PROJECT_SOURCE_DIR}/lib/include/structure
 )
 
 # Set project properties

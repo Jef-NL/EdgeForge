@@ -3,4 +3,5 @@
 Test::Test()
 {
     std::cout << "Tester\n";
+    Sensor tmp;
 }

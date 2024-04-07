@@ -4,13 +4,16 @@ IOT Framework for edge devices (Nodes) written in C++. A framework to simplify t
 ## Project structure
 ```bash
 ├─ include                      # Public headers
+│   ├─ **/*.h
 ├─ lib                          # Library structure
 │   ├─ include                  # Internal Headers
 │   │  ├─ **/*.h
 │   ├─ src                      # Internal Source
+│   │  ├─ CMakeLists.txt        # Internal Source links
 │   │  ├─ **/*.cpp
 ├─ LICENSE                      # Apache License
 ├─ README.md                    # This file
+├─ CMakeLists.txt               # CMake build file
 └─ .gitignore
 ```
 
@@ -19,7 +22,7 @@ IOT Framework for edge devices (Nodes) written in C++. A framework to simplify t
 This list specifies all ideas for the `EdgeForge` project. Feel free to suggest any topics to integrate in the Discussions tab!
 - Data structure
     - [ ] Sensor Objects
-        - [ ] Multiple datatypes
+        - [ ] Multiple data types
         - [ ] Custom fields
         - [ ] Events
     - [ ] Actuator Objects
@@ -28,14 +31,15 @@ This list specifies all ideas for the `EdgeForge` project. Feel free to suggest 
         - [ ] Custom fields
 - Structure management
     - [ ] Device configuration
-    - [ ] Event tirggers
+    - [ ] Event triggers
     - [ ] Object linking (I/O)
     - [ ] Remote device linking
 - [ ] Data publisher
+    - [ ] Measurement triggers
     - [ ] Data parsing
         - [ ] JSON
         - [ ] YAML
-        - [ ] Comma seperated
+        - [ ] Comma separated
         - [ ] ... (TBD)
     - [ ] Publishing
         - [ ] HTTP
@@ -44,3 +48,7 @@ This list specifies all ideas for the `EdgeForge` project. Feel free to suggest 
         - [ ] Cloud
             - [ ] Azure
             - [ ] AWS
+- Testing
+    - [ ] Unit tests
+    - [ ] Integration tests
+    - [ ] Demo projects

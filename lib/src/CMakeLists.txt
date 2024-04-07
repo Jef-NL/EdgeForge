@@ -5,6 +5,7 @@ set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 list(
   APPEND src_files
   ${dir}/Test.cpp
+  ${dir}/structure/Sensor.cpp
 )
 
 # Update source files in parent scope
