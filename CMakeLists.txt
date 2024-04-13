@@ -29,12 +29,17 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
     PUBLIC_HEADER ${public_headers}
 )
 
+# If willing to use Variants
+target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
+
 
 
 #! FOR TESTING
 add_executable(main_binary
-    main.cpp
+main.cpp
 )
+# Just so the main can also use it
+target_compile_features(main_binary PRIVATE cxx_std_17)
 
 target_link_libraries(main_binary
     PRIVATE

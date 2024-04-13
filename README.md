@@ -1,5 +1,5 @@
 # EdgeForge
-IOT Framework for edge devices (Nodes) written in C++. A framework to simplify the setup of any IOT related project.
+IOT Framework for edge devices (Nodes) written in C++. A platform independent framework shell to simplify the setup of any IOT related project.
 
 ## Project structure
 ```bash

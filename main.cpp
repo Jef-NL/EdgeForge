@@ -1,4 +1,5 @@
 #include <iostream>
+#include <variant>
 #include <EdgeForge.h>
 
 int main()

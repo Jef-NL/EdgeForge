@@ -18,6 +18,5 @@ EdgeForge::EdgeForge()
 
 void EdgeForge::print()
 {
-    std::cout << "Print" << std::endl;
     Test tester;
 }

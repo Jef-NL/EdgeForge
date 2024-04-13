@@ -3,7 +3,6 @@
 
 Sensor::Sensor()
 {
-    std::cout << "Sensor const\n";
 }
 
 Sensor::~Sensor()
