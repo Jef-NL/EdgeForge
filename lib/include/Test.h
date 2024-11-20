@@ -1,12 +1,13 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include "DataField.h"
+#include <DataField.h>
 #include "Sensor.h"
 
 class Test
 {
 public:
     Test();
-    std::vector<BaseField*> _items;
+    void run();
+    std::vector<BaseField *> _items;
 };

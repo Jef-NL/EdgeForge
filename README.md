@@ -17,6 +17,13 @@ IOT Framework for edge devices (Nodes) written in C++. A platform independent fr
 └─ .gitignore
 ```
 
+## Build
+```bash
+cd build
+cmake ..
+make
+```
+
 
 ## ToDo
 This list specifies all ideas for the `EdgeForge` project. Feel free to suggest any topics to integrate in the Discussions tab!

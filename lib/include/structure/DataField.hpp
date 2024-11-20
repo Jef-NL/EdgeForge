@@ -4,17 +4,11 @@
  * @brief Generic type independent data field
  * @version 0.1
  * @date 2024-04-13
- * 
+ *
  * @copyright Copyright (c) 2024
- * 
-**/
+ *
+ **/
 #include "DataField.h"
-
-template <typename T>
-inline constexpr DataField<T>::DataField(T const t) noexcept
-    : DataField(t, BaseField::None)
-{
-}
 
 template <typename T>
 inline constexpr DataField<T>::DataField(T const t, BaseField::FieldDataTypes const dataType) noexcept
